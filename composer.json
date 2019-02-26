@@ -1,0 +1,33 @@
+{
+    "name": "chuckbe/chuckcms-template-vancouver",
+    "description": "A ChuckCMS template named 'Vancouver' - lightweight and responsive.",
+    "keywords": ["chuckbe", "chuckcms", "cms", "laravel", "php"],
+    "homepage": "https://github.com/chuckbe/chuckcms-template-vancouver",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "~5.5||~5.6",
+        "chuckbe/chuckcms": "~0.1.0@beta"
+    },
+    "authors": [
+        {
+            "name": "Karel Brijs",
+            "email": "karel@chuck.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chuckbe\\ChuckcmsTemplateVancouver\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chuckbe\\ChuckcmsTemplateVancouver\\ChuckcmsTemplateVancouverServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
